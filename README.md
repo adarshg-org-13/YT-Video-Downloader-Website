@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YouTube Video Downloader
+
+A clean, minimal web application built with Python Next.js and `yt-dlp` package to download YouTube videos and audio quickly.
+
+---
+
+## Features
+
+* **High-Speed Downloads**: Powered by the robust and reliable `yt-dlp` library.
+* **Format Options**: Download video in various resolutions or extract audio.
+* **Minimal UI**: Clean, distraction-free interface.
+* **Lightweight**: Simple project structure that is easy to run locally.
+
+---
+
+## Tech Stack
+
+* **Backend**: Python, Flask
+* **Core Engine**: `yt-dlp`
+* **Frontend**: Next.js 
+
+---
+
+## Prerequisites
+
+Make sure you have the following installed on your system:
+* Python (v3.8 or higher)
+* `ffmpeg` (required by `yt-dlp` for merging video and audio streams)
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/adarshg-org-13/YT-Video-Downloader-Website]
+```
+### 2. Run The Website locally
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+### 3.Open The Website in browser
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+http://localhost:3000/
+```
